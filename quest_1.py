@@ -1,6 +1,7 @@
 import time
 import turtle as tr
 
+
 class TrafficLight():
 
     def __init__(self):
