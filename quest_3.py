@@ -9,7 +9,7 @@ class Worker():
 
 class Position(Worker):
 
-    def __init__(self, name, surname, _income):
+    def __init__(self, name, surname, _income, b):
         super().__init__(name, surname, 'pos', _income)
 
     def get_full_name(self):
